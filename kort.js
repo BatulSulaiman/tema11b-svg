@@ -80,8 +80,8 @@ async function runProgram() {
 
     //skift farve på det valgte
     //-------------------------------------------------------------------------
-    if (fillColor == "#b62300") {
-      document.querySelector("#" + selectedId).setAttribute("fill", "#123456");
+    if (fillColor == "#D46BE0") {
+      document.querySelector("#" + selectedId).setAttribute("fill", "#D46BE0");
     }
 
     //reset farve og skjul tekst hvis valgt elementet allerede er aktivt
@@ -93,7 +93,7 @@ async function runProgram() {
   }
   document.addEventListener("click", () => {
     if (!popover.matches(":popover-open")) {
-      selected.setAttribute("fill", "#b62300");
+      selected.setAttribute("fill", "#D46BE0");
     }
   });
 }

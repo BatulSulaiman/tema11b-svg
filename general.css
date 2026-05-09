@@ -1,63 +1,63 @@
 main {
-    margin: 4rem 10rem;
+  margin: 4rem 10rem;
 }
 a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #52A683;
-    color: #ffffff;
-    border-radius: 10px;
-    text-decoration: none;
-    box-shadow: 2px 2px rgba(44, 44, 44, 0.400);
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #d46be0;
+  color: #ffffff;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 2px 2px rgba(44, 44, 44, 0.4);
 }
 a:hover {
-    background-color: #326b53;
-    transition: 0.6s;
+  background-color: #7e1691;
+  transition: 0.6s;
 }
 .knapper_box {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-    padding: 1rem;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 1rem;
 }
 .portfolio {
-    text-align: center;
+  text-align: center;
 }
 #info {
-    max-width: 250px;
-    font-size: 1.2rem;
-    transform: translateY(-20px);
-    animation: draw .5s 0s ease-out forwards;
-    border-radius: 15px;
+  max-width: 250px;
+  font-size: 1.2rem;
+  transform: translateY(-20px);
+  animation: draw 0.5s 0s ease-out forwards;
+  border-radius: 15px;
 }
 #info p {
-    padding: 5px;
+  padding: 5px;
 }
 @keyframes draw {
-    to {
-      opacity: 1;
-      transform: translateY(0px);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
 }
 img {
-    max-width: 100%;
-    object-fit: contain;
+  max-width: 100%;
+  object-fit: contain;
 }
 #map {
-    max-width: 600px;
-    padding: 2rem;
+  max-width: 600px;
+  padding: 2rem;
 }
 ::backdrop {
-    backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
 }
 circle:hover {
-    fill: rebeccapurple;
-    transition: 0.5s;
-    cursor: pointer;
+  fill: rebeccapurple;
+  transition: 0.5s;
+  cursor: pointer;
 }
 @media (min-width: 600px) {
-    #info {
-      width: 30vW;
-      min-width: 450px;
+  #info {
+    width: 30vw;
+    min-width: 450px;
   }
 }
