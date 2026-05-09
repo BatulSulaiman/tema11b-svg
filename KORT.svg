@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 540 561">
+  <g id="Layer_1" data-name="Layer 1">
+    <image width="1080" height="1122" transform="scale(.5)" xlink:href="KORT.png"/>
+  </g>
+  <g id="steder" data-name="Layer 2">
+    <circle id="sti" cx="163" cy="501.31" r="14.31" fill="#b62300"/>
+    <circle id="pause" cx="129.69" cy="354" r="14.31" fill="#b62300"/>
+    <circle id="grav" cx="330.51" cy="411.29" r="14.31" fill="#b62300"/>
+    <circle id="blomster" cx="219" cy="185" r="14.31" fill="#b62300"/>
+  </g>
+</svg>
