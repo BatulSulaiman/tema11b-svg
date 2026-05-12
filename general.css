@@ -44,8 +44,11 @@ img {
   object-fit: contain;
 }
 #map {
-  max-width: 600px;
-  padding: 2rem;
+  #map {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
 }
 ::backdrop {
   backdrop-filter: blur(3px);
